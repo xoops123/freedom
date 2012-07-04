@@ -81,7 +81,7 @@
 		text-decoration:none;
 		color: #4F4F4F;
 	}
-	#headerSearch {display:none;}
+	#logo , #headerSearch {display:none;}
 	#level_1 {
 		border-top:40px solid #e6eae3;
 		-moz-border-top-right-radius: 25%;
@@ -97,7 +97,7 @@
 	.left-col { width: 100%; }
 	.sidebar { width: 100%; }
 	h3 { font-size: 18px; }
-	#headerSearch {display:none;}
+	#logo , #headerSearch {display:none;}
 	#wrapper {
 		position:relative;
 		margin-top: 120px;

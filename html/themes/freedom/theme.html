@@ -17,9 +17,7 @@
 <link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif:700,400,400italic,700italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'> 
-<!--[if IE]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <script type="text/javascript"><{$xoops_js|regex_replace:"/(\/\/\-\->|<!\-\-)/":""}></script>
 <{if ! $xcl22_jquery_is_already and ! $xugj_jquery_is_already}>
 <script type="text/javascript" src="<{$xoops_imageurl}>js/jquery-1.7.1.min.js"></script>
@@ -30,7 +28,7 @@
 <link rel="stylesheet" type="text/css" href="<{$xoops_imageurl}>modules.css" />
 <link rel="stylesheet" type="text/css" href="<{$xoops_imageurl}>media-queries.css" />
 </head>
-<body id="home" class="L<{$xoops_showlblock}>R<{$xoops_showrblock}> <{strip}>
+<body class="L<{$xoops_showlblock}>R<{$xoops_showrblock}> <{strip}>
 <{if $smarty.server.SCRIPT_FILENAME|basename == "index.php" and $smarty.server.SCRIPT_FILENAME|dirname|basename == $smarty.const.XOOPS_ROOT_PATH|basename}>
 	home
 <{else}>
@@ -43,9 +41,9 @@
 	<{/if}>
 <{/if}>
 "><{/strip}>
+<div id="nav_head">
 <nav>
 	<div class="nav">
-	<a href="<{$xoops_url}>/" class="sitename"><{$xoops_sitename}></a>
 	<ul class="clearfix">
 			<{if $menu0.dirname == $xoops_dirname}>
 				<li><a href="<{$xoops_url}>/" class="act"><{$smarty.const._THEME_LANGUAGE_HOME_NAME}></a></li>
@@ -62,9 +60,12 @@
 				<li><a href="<{$xoops_url}>/modules/<{$menu0.dirname}>/<{$menu0.url}>" <{if $menu0.dirname == $xoops_dirname}> class="act"<{/if}>><{$menu0.name}></a></li>
 			<{/foreach}>
 	</ul>
-	<div id="hover_box"></div>
 	</div>
 </nav>
+	<div id="logo"><a href="<{$xoops_url}>/" class="sitename"><{$xoops_sitename}></a></div>
+	<div id="hover_box"></div>
+</div>
+
 
 <{if $xoops_dirname == ""}>
 	<{include file="`$xoops_theme`/theme_slider.html"}>

@@ -22,6 +22,7 @@
 	border-top: 1px solid rgba(255, 255, 255, .8);
 /*	background :#f7f7f7 url(gallery/body-bg.gif) repeat; */
 	background :transparent;
+	z-index:100;
 }
 #slider1,
 #slider2,
@@ -31,21 +32,24 @@
 
 /* Slider1 */
 #slider1{
-	background: url(gallery/coffee.png) no-repeat 0 100px;
 }
 #slider2{
 }
-#slider1 .s_wrapper{
-	height: 350px;
-}
-	.left-wrap{
+.left-wrap{
 		width: 480px;
 		float: left;
 	}
+
+#slider1 .s_wrapper	.left-wrap{
+		width: 400px;
+		height:460px;
+		float: left;
+		background: url(gallery/nara.png) no-repeat 80px 160px;
+	}
 	#slider1_1{
 		float: right;
-		width: 601px;
-		height: 328px;
+		width: 300px;
+		height: 267px;
 		margin-top: 22px;
 		background: url(gallery/slider1_1.png) no-repeat 0 0;
 	}
@@ -74,7 +78,8 @@
 	height: 350px;
 }
 	#slider2 .left-wrap{
-		width: 350px;
+		width: 360px;
+		padding-left:10px;
 	}
 	#slider2_1{
 		background: url(gallery/slider2_1.png) no-repeat 0 0;
@@ -107,7 +112,7 @@
 /* slider3 */
 #slider3{
 	height: 328px;
-	background: url(gallery/twitter.png) no-repeat 0 0;
+	background: url(gallery/twitter.png) no-repeat 5px 60px;
 }
 	#slider3 .s_wrapper{
 		height: 328px;
@@ -118,7 +123,7 @@
 		font-family: HuiFontPRegular, fantasy;
 		font-size: 24px;
 		line-height: 150%;
-		padding: 150px 0 0 120px;
+		padding: 240px 0 0 120px;
 		color: #555;
 		text-shadow: 0 1px 4px rgba(255,255,255,1);
 	}
@@ -140,6 +145,7 @@
 #s-navi{
 	width: 200px;
 	margin: 0 auto 40px auto;
+	z-index:1001;
 }
 	#s-navi a{
 		display: block;
@@ -154,6 +160,7 @@
 		text-shadow: 0 -1px 0 rgba(0, 0, 0, .8);
 		font-family: 'Josefin Sans', sans-serif;
 		margin: 0 5px;
+	z-index:1002;
 	}
 	
 	#s-navi a:hover,

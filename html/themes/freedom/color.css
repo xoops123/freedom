@@ -113,19 +113,20 @@ h2 a { color:#bfbec5;
 
 .nav {
 	background: #555;
-	background: -moz-linear-gradient(top, #191970, #001e43);
-	background: -webkit-gradient(linear, left top, left bottom, from(#191970), to(#001e43));
-	background: -o-linear-gradient(top, #191970, #001e43);
+	background: -moz-linear-gradient(top, #0068b7, #001e43);
+	background: -webkit-gradient(linear, left top, left bottom, from(#0068b7), to(#001e43));
+	background: -o-linear-gradient(top, #0068b7, #001e43);
 	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
 	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
 	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
-	filter:alpha(opacity=75);
-	-moz-opacity: 0.75;
-	opacity: 0.75;
+	filter:alpha(opacity=65);
+	-moz-opacity: 0.65;
+	opacity: 0.65;
 }
-.nav a	{ color: #F9F9F9; }
+#logo a { color: #F9F9F9;}
+.nav a	{ font-weight:bold;color: #F9F9F9; border-bottom:5px solid transparent;}
 .nav a:visited 		{ color: #f9f9f9; }
-.nav a:hover			{ background: #27B3CF; border-bottom:3px solid orange ;}
+.nav a:hover			{ background: #27B3CF; border-bottom:5px solid orange ;}
 .nav li a {
 	color: #fff;
 }
@@ -136,6 +137,9 @@ h2 a { color:#bfbec5;
 	background :#666;
 }
 
+#logo {
+	background:url(images/sun01_m.png) no-repeat -10px -33px;
+}
 #footer ,
 footer {
 	color:#fafafa;
