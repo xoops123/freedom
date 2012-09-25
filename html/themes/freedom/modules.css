@@ -449,3 +449,10 @@ body.bulletin .itemBody {
 .gnn_cat {
 	margin-left:-45px;
 }
+
+/* xpwiki */
+
+h2#content_1_5 + p a.ext {
+border: none;
+background: none;
+}
