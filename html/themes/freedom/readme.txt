@@ -1,169 +1,219 @@
-�y�e�[�}���@�z trendy
-�y�o�[�W�����z 0.8
-�y��@���@�ҁz marine / mistgreen
-�y����@���z XOOPS Cube Legacy 2.1x (HD1.04)�A2.2
-�y���C�Z���X�z MIT
-�y�� �J ���@�z 2012-5-20
+【テーマ名　】 freedom
+【バージョン】 0.12
+【作　成　者】 marine / mistgreen
+【動作　環境】 XOOPS Cube Legacy 2.1x (HD1.04)、2.2
+【ライセンス】 CC
+【公 開 日　】 2012-6-24
 
 ======================================================
-�����i�T�v�j
+説明（概要）
 ======================================================
 
-�@PC�ł�iPhone ���̃X�}�[�g�t�H���ł��g���� XCL2.1x(HD1.04)�EXCL2.2�p�e�[�}�ł��BHTML5�ō���Ă��܂��B
-�@�{�����ɉ����āA�_��Ƀy�[�W���C�A�E�g��؂�ւ��郌�X�|���V�u�E�E�F�u�f�U�C���iResponsive Web Design �j���̗p���܂����BXoops Cube Legacy 2.2 �œ���m�F���܂����B
+　PCでもiPhone 等のスマートフォンでも使える XCL2.1x(HD1.04)・XCL2.2用テーマです。HTML5で作っています。
+　閲覧環境に応じて、柔軟にページレイアウトを切り替えるレスポンシブ・ウェブデザイン（Responsive Web Design ）を採用しました。Xoops Cube Legacy 2.2 で動作確認しました。
 
-�@���L�T�C�g�̃e���v���[�g�𗬗p����Xoops�p�̃e�[�}�Ƃ��� basic5 ���x�[�X�ɍ쐬���܂����B
-	http://www.onextrapixel.com/2011/09/12/create-a-responsive-web-design-template/
+　basic5 をベースに作成しましたが、通常２カラムや３カラムとは全く違う構造となっています。
+　ご利用の際は、構造を理解のうえ、ブロック配置を行ってください。
 
-�@�w�b�_�[�摜���ɂ́Axugj_assign �v���O�C���𗘗p���āA�C���X�g�[�����ꂽ���W���[���ɑΉ����郁�j���[�o�[�������\������悤�ɂ��Ă��܂��B
-�@�܂��A�t�b�^�[�Ƀ��[�U�[���j���[���ڂ������\������̂ŁAxoops�̌݊����W���[���ł���u���C�����j���[�v�u���[�U�[���j���[�v�𗘗p���Ȃ��^�p���\�ƂȂ��Ă��܂��B
+　ヘッダーには、xugj_assign プラグインを利用して、インストールされたモジュールに対応するメニューバーを自動表示するようにしています。
+　また、フッターにユーザーメニュー項目も自動表示するので、xoopsの互換モジュールである「メインメニュー」「ユーザーメニュー」を利用しない運用が可能となっています。
 
-�@���̃e�[�}�ɂ��Ă� MIT ���C�Z���X�Ƃ����Ă��������܂��B
-
-
-======================================================
-�����i�ڍׁj
-======================================================
-
-�@�Ƃ肠�����Autf8��euc��language�t�@�C���͗p�ӂ��܂������AHTML5�Ƃ������Ƃ� utf8�x�[�X�œ��삷��Ǝv���܂��Beuc�ł̓���͊m�F���Ă��܂���B
-
-�@���j���[�́AXoops Users Group Japan(XUGJ) �� GIJOE���񂪒񏥂��ꂽ xugj_assign.php �𗘗p�������j���[���̗p���Ă��܂��B
-�@�ʏ�̃��C�����j���[�ɕ\�������̂Ɠ������ڂ������ŕ\�������̂ŁA���j���[�̍��ڂ�ҏW����K�v������܂���B
-�@�@http://www.xugj.org/modules/d3forum/index.php?topic_id=125
-
-�@�Ȃ��A�������Ă�����̂́A�I���W�i���� xugj_assign.php ���班���ύX���Ă���̂ŁAxugj_assign_trend.php �Ƃ������̂ɕύX���Ă��܂��B
-
-�@jQuery.js + jquery.jgrowl�v���O�C���𗘗p���āA��ʑJ�ڂ����Ƀ��_�C���N�g�\���ł���̂ŁA�X�s�[�f�B�[�ŃZ���X�̗ǂ��\�����\�ƂȂ��Ă��܂��B�@�Ȃ��A�{�e�[�}�ɂ́Adomifara����쐬��php�t�@�C���ɂ��C���N���[�h���@��p���Ă���܂��B
-�@domifara����A���肪�Ƃ��������܂��B�ijavascript�I�t���ɂ́A���_�C���N�g�̕����Ȃǂ��{�b�N�X�\������܂��B�j
-
-�@jQuery�ɂ��ẮAdomifara����ɂ��XCL2.2�Ή��[�u���Ƃ��Ă���AjQuery�̓�d�ǂݍ��ݖh�~�⑼��javascript�Ƃ̃o�b�e�B���O���\�Ȍ��������d�g�݂��p�����Ă���܂��B�@(xugj_already_js.php ��XCL2.1�Ή��łɍ����ւ��Ă���܂��B�j
-
-
-�y��ʕ\���ɂ��āz
-
-�@���̃e�[�}�ł́A���f�B�A�E�N�G���iMedia Queries�j�𗘗p���āA�\������f�o�C�X�i�u���E�U�j�̉�ʕ��ɂ��X�^�C���iCSS�j�̐ؑւ��s���܂��B
-
-�@��{�́A�����C���E�E�T�C�h�J�����̂Q�J�����\���ƂȂ��Ă���A�ő�\�����͂X�W�O�����Ńu���E�U�̕����k�߂�Ƃ���ɉ����ĉ��������܂�A�f�o�C�X�̕���480px�ȉ��ɂȂ�ƂP�J�����\���ɐ؂�ւ��܂��B
-
-�@�Ȃ��A�����E�����J�����ɂ��ẮA�\�����ݒ�ɉ����āA�g�b�v�ƃ{�b�g���ɕ���t�Ƀ{�b�N�X�\�����邱�Ƃ��ł��܂��B
-
-�@���@�@���������J�����@�\���� �O�@�i�g�b�v�J�����j
-�@���@�@���������J�����@�\�����T�O�O�ȏ�@�i�{�b�g���J�����j
-
-�@�ڂ����\�����W�b�N�ɂ��ẮA������ trend2012.jpg �������������B
-
-�@�w�b�_�[�摜���̃��j���[�o�[�́A�X�N���[������Ǝ����Ńg�b�v��FIX����悤�ɂ��Ă��܂��B�܂��A���������N���b�N����ƃL�[���[�h���͕������ɍL����M�~�b�N���������Ă݂܂����B�ijQuery���p�j
+　このテーマについては CC ライセンスとさせていただきます。
 
 
 ======================================================
-�C���X�g�[��
+説明（詳細）
 ======================================================
 
-�@�C���X�g�[���͒ʏ�e�[�}�Ɠ����ł����A��v���W���[���̃e���v���[�g��{�e�[�}�ɍœK�������A�e�[�}���e���v���[�g�Ƃ��ė��p����ݒ肪�\�ł��̂ŁA���̏ꍇ�{���̍�Ƃ��K�v�ƂȂ�܂��B�i+���̍�Ƃ����Ȃ��ƕ\���G���[���o��ꍇ������܂��B�j
+　とりあえず、utf8とeucのlanguageファイルは用意しましたが、HTML5ということで utf8ベースで動作すると思います。eucでの動作は確認していません。
 
-�@�܂��́A�𓀂��Ăł����������t�H���_�utrendy�v��FTP�ɂăT�C�g�̃e�[�}�E�f�B���N�g���փR�s�[���Ă��������B�i�ꍇ�ɂ���ẮA�𓀂����t�H���_�̊K�w���[���Ȃ��Ă��邱�Ƃ�����܂��̂ŁA�����ӂ��������B�j
+　メニューは、Xoops Users Group Japan(XUGJ) で GIJOEさんが提唱された xugj_assign.php を利用したメニューを採用しています。
+　通常のメインメニューに表示されるのと同じ項目が自動で表示されるので、メニューの項目を編集する必要もありません。
+　　http://www.xugj.org/modules/d3forum/index.php?topic_id=125
 
-�@���ɁA�ȉ��̎菇�Ńe�[�}���e���v���[�g���p�̂��߂̍�Ƃƃv���O�C���̒ǉ���Ƃ��s���Ă��������B
+　なお、同封しているものは、オリジナルの xugj_assign.php から少し変更しているので、xugj_assign_theme.php という名称に変更しています。
 
-�@����������ʏ�̃e�[�}�Ɠ��l�A�Ǘ���ʂ́u�݊����W���[���v�u�e�[�}�̊Ǘ��v�ł��̃e�[�}���g�p����ݒ�Ƃ��Ă��������B
+　jQuery.js + jquery.jgrowlプラグインを利用して、画面遷移せずにリダイレクト表示できるので、スピーディーでセンスの良い表示が可能となっています。　なお、本テーマには、domifaraさん作成のphpファイルによるインクルード方法を用いております。
+　domifaraさん、ありがとうございます。（javascriptオフ時には、リダイレクトの文字などがボックス表示されます。）
 
-
-�y�e�[�}���e���v���[�g�����p�\�ȏꍇ�z
-
-�@�����p�ɂȂ��Ă��� xoops ���e�[�}���e���v���[�g���p�\�ȏꍇ�́A�{�e�[�}�f�B���N�g�����ɂ��� �utemplates�v�f�B���N�g���Ɏ��[���ꂽ�J�X�^�}�C�Y�ς݂̃e���v���[�g�𗘗p����悤�ɂȂ�܂��B
-�@XOOPS X�iPack2011�`�j�̏ꍇ�A����preload�ɁuHypXoopsTplHook.class.php�v�������Ă��܂��̂ŁA�e�[�}���e���v���[�g�����p�\�ƂȂ��Ă��܂��B
-
-�@�e�[�}���e���v���[�g�𗘗p����ꍇ�Axugj_date �� xugj_block �𗘗p���܂��̂ŁA�{�e�[�}���́uup/plugin�v�t�H���_�Ɏ��[����Ă��� modifier.xugj_date.php �� function.xugj_block.php ��FTP�ɂăT�C�g�́uplugin�v�f�B���N�g���ɃR�s�[���Ă��������B�i���ɑ��݂���ꍇ�͕s�v�j
-
-�@�uplugin�v�f�B���N�g���́AXCL2.1x �� XCL2.2 �ł͏ꏊ���Ⴄ�̂ł����ӂ��������B
-�@�@�@XCL2.1x�̏ꍇ�@/XOOPS_ROOT_PATH/class/smarty/plugins/ 
-�@�@�@XCL2.2�̏ꍇ�@ /XOOPS_TRUST_PATH/libs/smarty/plugins/�@�܂���
-�@�@�@�@�@�@�@�@�@�@ /XOOPS_TRUST_PATH/libs/smartyplugins/  �ipreload�uHdXoopsTplHook.class.php�v�܂��́uHypXoopsTplHook.class.php�v���g���Ă���ꍇ�A���̃f�B���N�g�����D��ƂȂ�܂��B�j
+　jQueryについては、domifaraさんによるXCL2.2対応措置がとられており、jQueryの二重読み込み防止や他のjavascriptとのバッティングを可能な限り避ける仕組みが用いられております。　(xugj_already_js.php をXCL2.1対応版に差し替えております。）
 
 
-�y�e�[�}���e���v���[�g�����p�ł��Ȃ��ꍇ�z
+【画面表示について】
 
-�@�����A�e�[�}���e���v���[�g�𗘗p�ł��Ȃ����̏ꍇ�A�{�e�[�}���́uup/preload�v�t�H���_�ɂ��� HdXoopsTplHook.class.php ��FTP�ɂăT�C�g�́upreload�v�f�B���N�g���ɁA�{�e�[�}���́uup/plugin�v�t�H���_�ɂ��� resource.db.php ���T�C�g�́uplugin�v�f�B���N�g���ɂ��ꂼ��R�s�[���Ă��������B
-�@�Ȃ��AXOOPS X�iPack2011�`�j�̏ꍇ�A����preload�ɁuHypXoopsTplHook.class.php�v�������Ă��܂��̂ŁA���̍�Ƃ͕s�v�ł��B�i�uHypXoopsTplHook.class.php�v�́A�uHdXoopsTplHook.class.php�v�̋@�\���ŐV�łɂ������̂ł��B�j
+　このテーマでは、メディア・クエリ（Media Queries）を利用して、表示するデバイス（ブラウザ）の画面幅によりスタイル（CSS）の切替を行います。
 
-�@�ڍׂ͂�������Q�Ƃ��ĉ������B
-�@�@http://xoops.peak.ne.jp/md/news/index.php?page=article&storyid=450
+　基本的な最大表示幅は９８０ｐｘでブラウザの幅を縮めるとそれに応じて横幅が狭まり、デバイスの幅が480px以下になると全体の文字表示などを小さくなるように設定しています。
 
+　基本は、１カラムのような表示に見えますが、実は次のようにブロックの表示順（weight）によって表示をコントロールするように設定しています。
 
-�y�e�[�}���e���v���[�g���p�\�����A�{�e�[�}�̃e�[�}���e���v���[�g���g�������Ȃ��ꍇ�z
-
-�@�t�ɁA�{�e�[�}���̃e���v���[�g���g�������Ȃ��ꍇ�́A�e�[�}���ɂ���utemplates�v�f�B���N�g�����폜���Ă��������B�������Awebphoto���W���[���g�p���̃M�������[�\���Ȃǂ͂ł��Ȃ��Ȃ�܂��B
-
-�����R�F�e�[�}���e���v���[�g���p�\��xoops�iHD��XOOPS X�iPack2011�`�j�Ȃǁj�ł́A���̗D�揇�ʂŃe���v���[�g��ǂݍ��ނ���
-�@�P�@�e�[�}���e���v���[�g
-�@�Q�@����Active��DB�e���v���[�g
-�@�R�@Default(DB)�e���v���[�g
-
-�e���v���[�g��ύX���悤�Ƃ��āAAltsys�Łu����Active��DB�e���v���[�g�v��������C�����Ă��A�e�[�}���e���v���[�g������ꍇ�͂����炪�D�悳��Ă��܂��Ƃ������Ƃɒ��ӂ��K�v�ł��B
+　■　スライドショー(トップページのみ）
+　■　表示順０のブロックを表示（左、中央中央、中央左、中央右、右）
+　■　表示順１-99のブロック表示（左、中央中央、中央左、中央右、右）
+　■　モジュールコンテンツ
+　■　表示順100-199のブロック表示（左、中央中央、中央左、中央右、右）
+　■　表示順200-499のブロック表示（左、中央中央、中央左、中央右、右）
+　■　表示順500-999のブロック表示（左、中央中央、中央左、中央右、右）
+　■　フッター（フッターメニュー表示）
+　■　フッター下に表示順1000以上のブロック表示（左、中央中央、中央左、中央右、右）
 
 
-�yprettyPhoto�𗘗p����ꍇ�z
-�@���̃e�[�}�ł́AjQuery �̃v���O�C���ł��� prettyPhoto �𗘗p����Ƃ������ȃ|�b�v�A�b�v�摜�\�����ł���悤�ɐݒ肵�Ă��܂��B
+　トップページのみ、jQueryのプラグインを用いて、スライドショーを表示するようにしていますが、このスライドショーは、全幅表示となっており、画像だけでなく文章も付加することが可能となっています。
 
-�@�����p�ɂȂ�ɂ́A�������Ă��� jQuery_Pretty.class.php ���T�C�g�̃v�����[�h�f�B���N�g���ɃA�b�v���[�h���Ă��������B
-�@xcl2.2�̏ꍇ�́Axoops��common�f�B���N�g���� jQuery �ƈꏏ�� prettyPhoto �������Ă���Ǝv���܂��̂ŁA����ō쓮����Ǝv���܂��B�����Acommon�f�B���N�g���� prettyPhoto ���Ȃ��ꍇ�́A���̃e�[�}�ɓ������Ă�����̂��A�b�v���[�h���Ă��������B
-
-�@���p���Ă���v�����[�h��domifara�����̂��̂ŁA�ŐV�̂��͎̂���url�ƂȂ�܂��B�idomifara����A���ӂ��܂��B�j
-�@�@�@http://xodomifara.lolipop.jp/doxo/modules/d3downloads/index.php?page=singlefile&cid=3&lid=67
-
-
-�ywebphoto�̗��p�ɂ��āz
-�@webphoto��prettyPhoto�𗘗p����ꍇ�Awebphoto�̈�ʐݒ��ʂɂāA���̐ݒ���s���Ă��������B
-�@�@PopBox���g�p����@�u�������v
-	LightBox���g�p����u�������v
-
-�@��ʐݒ��ʂɂĐݒ肷��e��摜�̑傫���̓f�t�H���g��z�肵�Ă��܂��B
-�@�ꗗ�\���̕\���^�C�v�́A�u�e�[�u���\���v�u�������t�����X�g�\���v�̂�����ł� prettyPhoto �����삷��悤�ɐݒ肵�Ă��܂����A�e�[�u���\����I�������ꍇ�A�e�[�u���ł͂Ȃ� div�i�{�b�N�X�j�𗘗p�����\���Ƃ��Ă���A��ʕ��ɉ����ă{�b�N�X�����Ԃ悤�ɐݒ肵�Ă��܂��̂ŁA�e�[�u���\�����̃J���������̐��l�͈Ӗ����Ȃ��܂���B
-
-�@�Ȃ��A���̃e�[�}�ł́Awebphoto���W���[�����uwebphoto�v�f�B���N�g�����ɂė��p����ꍇ��z�肵�āA�e���v���[�g���̐ݒ���s���Ă��܂��B�����A�Ⴄ�f�B���N�g�����ł����p�̏ꍇ�́A�ʓr�J�X�^�}�C�Y���K�v�ƂȂ�܂��̂ŁA���������������B
+　また、フッターのメニューにはログインなどのリンクを装備しており、jQueryのプラグインを用いて、ポップアップでログインブロックが表示されるようにしています。
 
 
 ======================================================
-�J�X�^�}�C�Y
+インストール
 ======================================================
 
-�y���j���[�\�����ڂ̕ύX�z
+　インストールは通常テーマと同じですが、主要モジュールのテンプレートを本テーマに最適化させるため、テーマ下テンプレートとして同封していますので、できればテーマ下テンプレートが有効となるように設定していただいた方が良いでしょう。(その際、同封のプラグインも利用するようにコピー作業等を行ってください。）
 
-�@���̃e�[�}�ł́Axugj_assign_php��p�������j���[�\�����s���܂����A�C���X�g�[�����ď���\���������ɁA���C�����j���[�\������ݒ�ƂȂ��Ă��郁�j���[���ڂ������ň��p���Ă��܂��B�i�\���p�̃L���b�V���t�@�C���������쐬���ė��p�j
+　まずは、解凍してできあがったフォルダの最下層にある「coffee_time」をFTPにてサイトのテーマ・ディレクトリへコピーしてください。（場合によっては、/coffee_time/html/themes/cofffee_time/ のように、解凍したフォルダの階層が深くなっていることもありますので、ご注意ください。html/themes/の下にある cofffee_time フォルダをアップロードしてください。）
 
-�@�]���āA���W���[���̊Ǘ��ɂă��W���[���̕\������ς�����A���я����u�O�v�Ƃ��Ĕ�\���w�肵���ꍇ�ł��A�e�[�}�̃��j���[�\���͈ȑO�쐬�����L���b�V���t�@�C���𗘗p���邱�Ƃ���A�ύX�����\���ƂȂ�܂���B
+　次に、以下の手順でテーマ下テンプレート利用のための作業を行ってください。
 
-�@���̂悤�ȏꍇ�AFTP�\�t�g���g���āAcache�f�B���N�g������ theme_trend_menus_****.php ���폜���Ă��������B�ēx�A�T�C�g��\�������ۂɁA�V�������j���[�p�̃L���b�V���t�@�C����������������܂��B
+　完了したら通常のテーマと同様、管理画面の「互換モジュール」「テーマの管理」でこのテーマを使用する設定としてください。
 
-�@�Ȃ��Adomifara����쐬�́uxugj���j���[�L���b�V�����t���V���@�Ǘ���ʃ��W���[���v�𗘗p����ƁAFTP�\�t�g���g�킸�ɃL���b�V���t�@�C���̍폜���ł���̂ŁA�֗����Ǝv���܂��B�idomifara����A���肪�Ƃ��������܂��B�j
-�@�@http://xodomifara.lolipop.jp/doxo/modules/d3downloads/index.php?cid=2
+
+【テーマ下テンプレートが利用可能な場合】
+
+　ご利用になっている xoops がテーマ下テンプレート利用可能な場合は、本テーマディレクトリ下にある 「templates」ディレクトリに収納されたカスタマイズ済みのテンプレートを利用するようになります。
+　XOOPS X（Pack2011～）の場合、既にpreloadに「HypXoopsTplHook.class.php」が入っていますので、テーマ下テンプレートが利用可能となっています。（このドキュメント作成現在の最新のHyperCommonFoncを利用している場合、このプリロードは不要です。）
+
+　テーマ下テンプレートを利用する場合、xugj_date や xugj_block を利用しますので、本テーマ下の「up/plugin」フォルダに収納されている modifier.xugj_date.php と function.xugj_block.php をFTPにてサイトの「plugin」ディレクトリにコピーしてください。（既に存在する場合は不要）
+
+　「plugin」ディレクトリは、XCL2.1x と XCL2.2 では場所が違うのでご注意ください。
+　　　XCL2.1xの場合　/XOOPS_ROOT_PATH/class/smarty/plugins/
+　　　XCL2.2の場合　 /XOOPS_TRUST_PATH/libs/smarty/plugins/　または
+　　　　　　　　　　 /XOOPS_TRUST_PATH/libs/smartyplugins/  （preload「HdXoopsTplHook.class.php」または「HypXoopsTplHook.class.php」を使っている場合、このディレクトリが優先となります。最新のHyperCommonFoncを利用している場合は、同モジュールにて読み込み順の設定等が可能となっています。）
+
+
+【テーマ下テンプレートが利用できない場合】
+
+　このドキュメント作成現在の最新のHyperCommonFoncを利用している場合、この作業は不要です。
+
+　もし、テーマ下テンプレートを利用できない環境の場合、本テーマ下の「up/preload」フォルダにある HdXoopsTplHook.class.php をFTPにてサイトの「preload」ディレクトリに、本テーマ下の「up/plugin」フォルダにある resource.db.php をサイトの「plugin」ディレクトリにそれぞれコピーしてください。
+　なお、XOOPS X（Pack2011～）の場合、既にpreloadに「HypXoopsTplHook.class.php」が入っていますので、この作業は不要です。（「HypXoopsTplHook.class.php」は、「HdXoopsTplHook.class.php」の機能を最新版にしたものです。）
+
+　詳細はこちらを参照して下さい。
+　　http://xoops.peak.ne.jp/md/news/index.php?page=article&storyid=450
+
+
+【テーマ下テンプレート利用可能だが、本テーマのテーマ下テンプレートを使いたくない場合】
+
+　逆に、本テーマ下のテンプレートを使いたくない場合は、テーマ下にある「templates」ディレクトリを削除してください。ただし、webphotoモジュール使用時のギャラリー表示などはできなくなります。
+
+■理由：テーマ下テンプレート利用可能なxoops（HDやXOOPS X（Pack2011～）など）では、次の優先順位でテンプレートを読み込むため
+　１　テーマ下テンプレート
+　２　現在ActiveなDBテンプレート
+　３　Default(DB)テンプレート
+
+テンプレートを変更しようとして、Altsysで「現在ActiveなDBテンプレート」をいくら修正しても、テーマ下テンプレートがある場合はそちらが優先されてしまうということに注意が必要です。
+
+
+【prettyPhotoを利用する場合】
+　このテーマでは、jQuery のプラグインである prettyPhoto を利用するとお洒落なポップアップ画像表示ができるように設定しています。
+
+　ご利用になるには、同封している jQuery_Pretty.class.php をサイトのプリロードディレクトリにアップロードしてください。
+　xcl2.2の場合は、xoopsのcommonディレクトリに jQuery と一緒に prettyPhoto が入っていると思いますので、それで作動すると思います。もし、commonディレクトリに prettyPhoto がない場合は、このテーマに同封しているものをアップロードしてください。
+
+　利用しているプリロードはdomifaraさん作のもので、最新のものは次のurlとなります。（domifaraさん、感謝します。）
+　　　http://xodomifara.lolipop.jp/doxo/modules/d3downloads/index.php?page=singlefile&cid=3&lid=67
+
+
+【webphotoの利用について】
+　webphotoでprettyPhotoを利用する場合、webphotoの一般設定画面にて、次の設定を行ってください。
+　　PopBoxを使用する　「いいえ」
+ 	　LightBoxを使用する「いいえ」
+
+　一般設定画面にて設定する各種画像の大きさはデフォルトを想定しています。
+　一覧表示の表示タイプは、「テーブル表示」「説明文付きリスト表示」のいずれでも prettyPhoto が動作するように設定していますが、テーブル表示を選択した場合、テーブルではなく div（ボックス）を利用した表示としており、画面幅に応じてボックスが並ぶように設定していますので、テーブル表示時のカラム数欄の数値は意味をなしません。
+
+　なお、このテーマでは、webphotoモジュールを「webphoto」ディレクトリ名にて利用する場合を想定して、テンプレート等の設定を行っています。もし、違うディレクトリ名でご利用の場合は、別途カスタマイズが必要となりますので、ご了承ください。
 
 
 ======================================================
-���p�ɂ���
+カスタマイズ
 ======================================================
 
-�@���̃e�[�}�́AMIT ���C�Z���X�ł��B�����R�ɉ��ς���Ȃǂ��Ă����p���������B
+【メニュー表示項目の変更】
 
-�@�Ȃ��A�G���E���Ђւ̌f�ڂ̏ꍇ�ɂ́A���炩���ߓ��T�C�g�Ǘ��l�ւ���񂢂�������Ɗ������ł��B
-�@�@�A����Fhttp://xoops123.com/modules/liaise/
+　このテーマでは、xugj_assign_phpを用いたメニュー表示を行いますが、インストールして初回表示した時に、メインメニュー表示する設定となっているメニュー項目を自動で引用してきます。（表示用のキャッシュファイルを自動作成して利用）
 
+　従って、モジュールの管理にてモジュールの表示名を変えたり、並び順を「０」として非表示指定した場合でも、テーマのメニュー表示は以前作成したキャッシュファイルを利用することから、変更した表示となりません。
+
+　そのような場合、FTPソフトを使って、cacheディレクトリ内の theme_trend_menus_****.php を削除してください。再度、サイトを表示した際に、新しくメニュー用のキャッシュファイルが自動生成されます。
+
+　なお、domifaraさん作成の「xugjメニューキャッシュリフレシュ　管理画面モジュール」を利用すると、FTPソフトを使わずにキャッシュファイルの削除ができるので、便利だと思います。（domifaraさん、ありがとうございます。）
+　　http://xodomifara.lolipop.jp/doxo/modules/d3downloads/index.php?cid=2
+
+
+【スライドショーについて】
+　スライドショーについては、theme_slider.html と cycle.css にて、表示文章や画像の設定を行っています。カスタマイズする場合は、それぞれのファイルを修正してください。
+
+　もし、スライドショーを使いたくない場合は、theme.html の 83行目にある
+　　<{if $xoops_dirname == ""}>
+　	　<{include file="`$xoops_theme`/theme_slider.html"}>
+　　<{/if}>
+という記述をコメントアウトするか削除してください。
+
+
+==================================================================================
+利用について
+==================================================================================
+
+　利用ライセンスは、クリエイティブ・コモンズとなっております。
+　
+　フッターのcopyright（Theme designed by marine/mistgreen）表示していただければ、非商用に限り無償で、自由に改変してご利用頂くことができます。（フッターのcopyright表示を消して利用したい場合は、商用利用扱いとなります。）
+
+　雑誌・書籍への掲載の場合には、あらかじめ当サイト管理人へご一報ください。
+　　連絡先：http://xoops123.com/modules/liaise/
+
+
+==================================================================================
+商用利用について
+==================================================================================
+
+　企業様、または営利個人様でのご利用は、原則商用とさせていただきます。
+　個人利用であっても、著作権表示を削除してご利用される場合は、商用利用扱いとなります。
+
+　商用利用の場合は有償とさせていただきたく、１サイト（ドメイン）につき1500円にてお願い致します。管理人へのご連絡のうえ、手続きをお願い申し上げます。（手続き完了されたら、フッターの著作権表示部分を削除してご利用いただけます。）
+
+
+==================================================================================
+利用拒否について
+==================================================================================
+
+　違法行為を行っているサイト、公序良俗に反するサイトでの利用は、お断り申し上げます。
+
+
+==================================================================================
+連絡先
+==================================================================================
+
+　 http://xoops123.com/modules/liaise/
 
 
 ======================================================
-�o�[�W�����A�b�v����
+バージョンアップ履歴
 ======================================================
 
-2012-5-20 ver0.8
-�@�Ƃ肠�������J���Ă݂�B
+2012-6-24 ver0.1
+　とりあえず公開してみる。
+2012-9-15 ver0.11
+　テーマ下テンプレート修正（リッチエディタ対応）
+　d3forumのページナビにも対応
+2014-3-29 ver0.12
+　テーマディレクトリにreadme.txtを追加
 
 
 ======================================================
-���肢
+お願い
 ======================================================
 
-�@�ł��܂�����A�����̃T�C�g�f���i���K�⒠�j�ɉ�����������ł���������Ɗ������ł��`m(_ _)m
-�@�@ http://xoops123.com/modules/d3forum/?forum_id=1 
+　できましたら、当方のサイト掲示板（ご訪問帳）に何か書き込んでいただけると嬉しいです～m(_ _)m
+　　 http://xoops123.com/modules/d3forum/?forum_id=1
 
 
 

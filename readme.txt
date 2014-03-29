@@ -1,5 +1,5 @@
 【テーマ名　】 freedom
-【バージョン】 0.11
+【バージョン】 0.12
 【作　成　者】 marine / mistgreen
 【動作　環境】 XOOPS Cube Legacy 2.1x (HD1.04)、2.2
 【ライセンス】 CC
@@ -8,8 +8,6 @@
 ======================================================
 説明（概要）
 ======================================================
-
-以下、まだ未修正（coffee_timeの記述を流用）
 
 　PCでもiPhone 等のスマートフォンでも使える XCL2.1x(HD1.04)・XCL2.2用テーマです。HTML5で作っています。
 　閲覧環境に応じて、柔軟にページレイアウトを切り替えるレスポンシブ・ウェブデザイン（Responsive Web Design ）を採用しました。Xoops Cube Legacy 2.2 で動作確認しました。
@@ -86,7 +84,7 @@
 　テーマ下テンプレートを利用する場合、xugj_date や xugj_block を利用しますので、本テーマ下の「up/plugin」フォルダに収納されている modifier.xugj_date.php と function.xugj_block.php をFTPにてサイトの「plugin」ディレクトリにコピーしてください。（既に存在する場合は不要）
 
 　「plugin」ディレクトリは、XCL2.1x と XCL2.2 では場所が違うのでご注意ください。
-　　　XCL2.1xの場合　/XOOPS_ROOT_PATH/class/smarty/plugins/ 
+　　　XCL2.1xの場合　/XOOPS_ROOT_PATH/class/smarty/plugins/
 　　　XCL2.2の場合　 /XOOPS_TRUST_PATH/libs/smarty/plugins/　または
 　　　　　　　　　　 /XOOPS_TRUST_PATH/libs/smartyplugins/  （preload「HdXoopsTplHook.class.php」または「HypXoopsTplHook.class.php」を使っている場合、このディレクトリが優先となります。最新のHyperCommonFoncを利用している場合は、同モジュールにて読み込み順の設定等が可能となっています。）
 
@@ -206,6 +204,8 @@
 2012-9-15 ver0.11
 　テーマ下テンプレート修正（リッチエディタ対応）
 　d3forumのページナビにも対応
+2014-3-29 ver0.12
+　テーマディレクトリにreadme.txtを追加
 
 
 ======================================================
@@ -213,7 +213,7 @@
 ======================================================
 
 　できましたら、当方のサイト掲示板（ご訪問帳）に何か書き込んでいただけると嬉しいです～m(_ _)m
-　　 http://xoops123.com/modules/d3forum/?forum_id=1 
+　　 http://xoops123.com/modules/d3forum/?forum_id=1
 
 
 
